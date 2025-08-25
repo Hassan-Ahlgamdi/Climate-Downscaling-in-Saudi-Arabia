@@ -1,0 +1,33 @@
+name: UTCDW-env
+channels:
+  - conda-forge
+  - defaults
+  - claut
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - cartopy
+  - nc-time-axis
+  - pandas
+  - jupyter
+  - xarray
+  - netCDF4
+  - zarr
+  - ec3
+  - esgf-pyclient
+  - gcsfs
+  - siphon
+  - requests
+  - tqdm
+  - dask
+  - dask-ml
+  - scikit-learn
+  - xesmf
+  - xclim
+  - xskillscore
+  - libpysal 
+  - esda
+  - intake-esm
+  - clisops

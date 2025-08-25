@@ -1,0 +1,47 @@
+# _toc.yml
+format: jb-book
+root: README
+chapters:
+  - file: Chapter1/chapter1
+    sections: 
+      - file: Chapter1/section1.1_python_env.md
+  - file: Chapter2/chapter2
+    sections:
+      - file: Chapter2/section2.1_climate_basics
+      - file: Chapter2/section2.2_climate_modeling
+      - file: Chapter2/section2.3_climate_model_uncertainty
+      - file: Chapter2/chapter2_summary
+  - file: Chapter3/chapter3
+    sections:
+    - file: Chapter3/section3.1_station_data
+    - file: Chapter3/section3.2_gridded_obs
+    - file: Chapter3/section3.3_reanalysis
+    - file: Chapter3/section3.4_climate_model_output_from_ESGF
+    - file: Chapter3/section3.5_model_data_on_google_cloud
+    - file: Chapter3/section3.6_model_data_with_intake_esm
+    - file: Chapter3/chapter3_summary
+  - file: Chapter4/chapter4
+    sections:
+    - file: Chapter4/section4.1_downscaling_basics
+    - file: Chapter4/section4.2_bias_correction_methods
+    - file: Chapter4/section4.3_downscaling_methods
+    - file: Chapter4/section4.4_downscaling_validation
+    - file: Chapter4/section4.5_assessing_downscaled_projections
+    - file: Chapter4/chapter4_summary
+  - file: Chapter5/chapter5
+    sections:
+    - file: Chapter5/section5.1_climate_indicators
+    - file: Chapter5/section5.2_data_selection
+    - file: Chapter5/section5.3_exploratory_data_analysis
+    - file: Chapter5/section5.4_producing_downscaled_data
+    - file: Chapter5/chapter5_summary
+  - file: Chapter6/chapter6
+    sections:
+    - file: Chapter6/section6.1_station_1D_example_onesim
+    - file: Chapter6/section6.2_station_1D_example_multimodel
+    - file: Chapter6/section6.3_station_1D_example_multiscen
+    - file: Chapter6/section6.4_station_1D_example_nearterm
+    - file: Chapter6/section6.5_gridded_DBCCA_example
+    - file: Chapter6/section6.6_Toronto_Electricity_example
+  - file: guidebook_references
+
