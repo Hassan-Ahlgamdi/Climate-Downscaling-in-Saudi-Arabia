@@ -69,29 +69,28 @@ xgb_utils.py → XGBoost downscaler
 Generate figures with plotting.py.
 
 ## 📊 Results Summary
-QDM: Robust statistical baseline, but limited at extremes.
+- QDM: Robust statistical baseline, but limited at extremes.
 
-RF: Moderate improvements, still some generalization issues.
+- RF: Moderate improvements, still some generalization issues.
 
-XGBoost: Strongest historical fit (RMSE ↓ 83–89% vs QDM) but underperformed for out-of-sample future projections.
+- XGBoost: Strongest historical fit (RMSE ↓ 83–89% vs QDM) but underperformed for out-of-sample future projections.
 
-Future projections (2070–2100):
+### Future projections (2070–2100):
 
-Jeddah → Moderate coastal warming (+2–3 °C)
+- Jeddah → Moderate coastal warming (+2–3 °C)
 
-Riyadh → Severe desert amplification (+4–5 °C)
+- Riyadh → Severe desert amplification (+4–5 °C)
 
-Substantial increases in Cooling Degree Days (CDD) under all SSPs.
+- Substantial increases in Cooling Degree Days (CDD) under all SSPs.
 
 ## 📖 References
-ERA5-Land reanalysis: https://cds.climate.copernicus.eu
+- [ERA5](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview) reanalysis (Copernicus Climate Data Store)  
+- [CMIP6](https://cds.climate.copernicus.eu/datasets/projections-cmip6?tab=overview) climate model data (ESGF-LNL)  
+- UTCDW Guidebook (included in this repo)  
 
-CMIP6 data: https://esgf-node.llnl.gov
-
-UTCDW Guidebook (included in this repo)
 
 ## 👤 Authors
-Hasan Algamdi (University of Toronto, KAUST Academy AI Program)
+ - Hassan Algamdi (University of Toronto, KAUST Academy AI Program)
 
-Supervisors: Paul Kushner, Karen Smith
+ - Supervisors: Prof. [Paul Kushner](https://www.physics.utoronto.ca/members/kushner-paul/), Prof. [Karen Smith](https://www.utsc.utoronto.ca/physsci/karen-smith)
 
